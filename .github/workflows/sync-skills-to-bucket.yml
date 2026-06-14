@@ -1,6 +1,7 @@
 name: Sync skills to bucket
 
 on:
+  workflow_dispatch: {}
   push:
     branches: [main]
     paths:
